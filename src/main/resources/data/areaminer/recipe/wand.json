@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "S": "minecraft:stick"
+  },
+  "result": { "id": "areaminer:wand", "count": 1 }
+}

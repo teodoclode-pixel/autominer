@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "areaminer",
+  "version": "${version}",
+  "name": "Area Miner",
+  "description": "Zaznacz obszar rozdzka (jak WorldEdit), /areaminer start kopie, /areaminer stop konczy. Zatrzymuje sie, gdy narzedzie ma malo wytrzymalosci.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.areaminer.AreaMinerMod"],
+    "client": ["pl.areaminer.AreaMinerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
